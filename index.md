@@ -1,30 +1,4 @@
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# HIHI
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
 On February 24, 2021, the Hong Kong financial secretary, Paul Chan Mo-po, released his fifth Hong Kong budget speech during his term of office. He said “this year's Budget focuses on stabilising the economy and relieving people's burden. It aims to alleviate the hardship and pressure caused by the economic downturn and the epidemic through the introduction of counter-cyclical measures costing over $120 billion; and seeks to create a leverage effect to benefit our people, workers as well as enterprises”.
 
 In 2020, counter-cyclical measures of a massive scale involving above $120 billion was introduced in the Hong Kong budget proposal. Paul stated that “In preparing this Budget, I put the focus on ‘supporting enterprises, safeguarding jobs, stimulating the economy and relieving people's burden’. I am well aware that financial resources alone are not enough to tackle the challenges we are facing”.
