@@ -38,13 +38,13 @@ expenditure(14), tax(13), revenue(9), development(9), industries(9), economic(9
 
 We also managed to generate a wordcloud of the Hong Kong Budget speech from 2002 to 2021. The wordcloud was created in terms of the result of TF-IDF method and removing some words to optimise the wordcloud visualisation. 
 
-![Image of wordcloud](https://ibb.co/CJcw7D2)
+![Image of wordcloud](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/wordcloud.png)
 
 As shown in the wordcloud, the word “expenditure” and “tax” have been mentioned the most in the past 20 years with TF-IDF value of 14 and 13 respectively, and the word “revenue”, “development”, “industries”, “economic” and “services” followed in yellow color with the value of 9. In addition, the word “economy”, “public”, “government”, “fiscal”, “financial”, “land”, “measures”, “social”, “forecast” and “growth” ranked in the third place with high frequency in green color. From the figure we learned that “expenditure” and “tax” words are most mentioned in the 20-year budget which have always been the top priorities of Hong Kong’s budget reports.
 
 In order to see the change of the importance ranking of these words in each year's budget report, we got the top 20 keywords with the high frequency in each year's budget according to the TF-IDF method, and formed the results into a table.
 
-![Image of tfidf1](https://ibb.co/rtzfzJ1)
+![Image of tfidf1](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/tfidf1.png)
 ![GitHub](/images/tfidf2.png)
 Format: ![Alt Text](https://https://ibb.co/gzy3DWd)
 
