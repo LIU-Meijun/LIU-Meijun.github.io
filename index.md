@@ -44,8 +44,7 @@ As shown in the wordcloud, the word “expenditure” and “tax” have been me
 
 In order to see the change of the importance ranking of these words in each year's budget report, we got the top 20 keywords with the high frequency in each year's budget according to the TF-IDF method, and formed the results into a table.
 
-![GitHub](/images/tfidf1.png)
-Format: ![Alt Text](https://ibb.co/rtzfzJ1)
+![Image of tfidf1](https://ibb.co/rtzfzJ1)
 ![GitHub](/images/tfidf2.png)
 Format: ![Alt Text](https://https://ibb.co/gzy3DWd)
 
@@ -89,9 +88,8 @@ By calculating the cosine similarity between paragraphs, we found that the s
 
 From 2007 to 2009, several paragraphs on taxation are highly similar, so we speculated that tax issue is a platitude. According to the results of cosine similarity, three types of issues are distinguished which are enduring issues, emerging issues and transitory issues. We classified tax and land resources issues as enduring issues while testing and certification services issue as emerging issue. Therefore, We would like to classify some topics under the category of enduring issues, emerging issues and transitory issues, and make a more in-depth analysis and discussion on these topics.
 
-##Endurng issue: Tax and land resources
-
-###Tax
+## Enduring issues: Tax and land resources
+### Tax
 
 Since Hong Kong reunification in 1997, Hong Kong experienced a six-years adjustment period and began an uninterrupted expansion period. Tax as an important part in Hong Kong government’s income is an enduring issue. Looking at the detail, tax in HK includes salaries, personal assessment, profits, property, goods and services, etc. and some boundary of taxes. Every year, the government would listen to the public and consider the current situation to adjust the tax. Through the word frequency and TF-IDF, we found that “tax” ranked second in the 20 years’ word clouds and ranked higher during 2003 to 2009 and in 2015, 2016, 2018 to 2020. In addition, through the similarity analysis, we found that the content about salary, profit and property are highly similar in many years. In this case, we focus on analyzing these three taxes, and let other taxes as subfactors. 
 
@@ -110,7 +108,7 @@ In the situation where external factors had not yet stabilized, the 2019-20 Hong
 
 Between 2002 and 2021, Hong Kong government has adjusted the rate on many parts and implement some one-off policies to relief the public’s pressure on economic pressure. Besides 2010 and 2011, “tax” always be mentioned a lot in the budget speech, whatever in the practical measure, the plan of submitting a draft about tax, or the answer to the previous voice from the public. Tax is closely related to the public life and the income of government. 
 
-###Land resources
+### Land resources
 
 Land source is global issue and enduring issue for a long time. Specially, in Hong Kong, land source is very precious for a large amount of people to live, to life, to work. Also, through the word cloud, “land” ranks 13 with 7.47, which is below the tax, industries, economic, services and public. Land source in Hong Kong mainly support for includes housing supply, commercial sites, and government, institution, or Community sites. Different usages have these own policies, and the income of land to the land fund is important for the government. 
 
@@ -127,9 +125,8 @@ Through the TF-IDF table, we also found that “land” ranked first in 2016 and
 
 “Increasing land and housing supply is one of the priorities of the Government…This is not an easy task.  On the one hand, the Government has to continue its endeavour to increase land supply on all fronts to meet the housing, economic and social development needs of Hong Kong. On the other hand, it is necessary for us to build up a land reserve to meet future demand in a timely manner,” said by Paul Chan during 2017 budget speech. 
 
-##Emerging issue: Vehicles and testing and certification industy
-
-###Vehicles
+## Emerging issues: Vehicles and testing and certification industry
+### Vehicles
 
 Regarding the emerging industries in the budget report, we found two interesting and attractive words, ‘vehicles’ and ‘testing and certification industry’.
 
@@ -147,7 +144,7 @@ The spokesperson said that the work on new charging facilities for electric vehi
 
 Taking into account the international social environment of the year, the Hong Kong government promulgated a series of measures to promote low-carbon and environmental protection in the transportation industry, and added a second phase of subsidy to encourage car owners to replace old diesel vehicles and take the lead in ordering electric vehicles to serve as a model to encourage citizens. It set up charging stations in parking lots and promised to continue to expand the electric vehicle charging network, in order to respond to the international community’s attention to the destruction of the climate and environment, and to fundamentally reduce the damage to the earth’s climate and environment caused by old vehicles.
 
-###Testing and certification industy
+### Testing and certification industry
 
 As a popular international tourist city, Hong Kong has a long-standing reputation for medicinal materials and jewellery. With more and more tourists and denser population, the demand for goods is increasing, and it is also very important to ensure the authenticity and safety of goods. In October 2008, the Chief Executive established the Economic Opportunities Committee to monitor and evaluated the impact of the financial tsunami on local and global markets. After filter, six industries were have been selected, and the testing and certification industry was one of them. In September 2009, the government established the Hong Kong Testing and Certification Authority (Testing and Certification Authority) to provide advice on overall strategies and measures to promote the development of the testing and certification industry.
 
@@ -161,9 +158,8 @@ In the budget speech of 2012, the financial secretary mentioned that the governm
 
 Therefore, we found that in the 2011 budget speech, the four directions for the development of the testing and certification industry were mainly determined (Chinese medicinal material authenticity testing, food safety system certification, building material product certification, and the development of standard testing for two types of jade methods) and plans to open up the mainland market. In 2011, these plans have indeed been implemented in these four industries, and new progress and breakthroughs have been made. So in the 2012 speech, the progress of the testing and certification industry in 2011 was shown, and government decided to continue to expand business opportunities and further explored the mainland market on the basis of this development.
 
-##Transitory issues: Epidemic and financial crisis
-
-###Epidemic
+## Transitory issues: Epidemic and financial crisis
+### Epidemic
 
 Through TF-IDF and Topic modeling, we have observed that in the Hong Kong budget report from 2002 to 2021, social and economic issues such as epidemics and economic crises have certain periodic laws, and they are repeated at different times according to certain laws. According to the classification of different types of public events, this kind of topic that has a certain law and appears at different times is a transitory issues. Through TF-IDF and topic modeling, we can observe that health and welfare frequently appeared from 2003 to 2005， this is due to the outbreak of SARS in Hong Kong in 2003. The epidemic caused 299 deaths, the city was paralyzed, schools were closed, and everyone went out with masks. In residential areas with severe epidemics, residents needed to be quarantined. The epidemic caused the economy to decline, recover once again to decline, and the unemployment rate rose to the peak since the transfer of autonomy, breaking through 8%.
 
@@ -171,7 +167,7 @@ First of all, due to the influence of Sars, Hong Kong faced huge challenges in t
 
 Finally, it is worth noting that epidemic ranks ninth in the TF-IDF of the 2020 budget report. Due to the catastrophic outbreak of COVID-19 worldwide, the term was frequently mentioned. In the Economic Outlook for 2020 and Medium-term Outlook chapter of the 2020 fiscal report, the government stated that the COVID-19 has caused a serious blow to Hong Kong’s economic activities and sentiment, “Although the impact of the epidemic on our economy in the near term could possibly be greater than that of the SARS outbreak in 2003...Hong Kongs economicfundamentals remain solid and therefore our core competitiveness will not be shaken.” Due to the continuous impact of the 2019 Coronavirus Disease (COVID-19) epidemic, the Hong Kong government’s fiscal reserves have fallen To more than 800 billion Hong Kong dollars, equivalent to 12 to 13 months of government expenditure, close to the level of the severe acute respiratory syndrome (SARS) epidemic in 2003. It can be seen that with regard to infectious diseases in the Hong Kong financial report, the emergence of epidemics such as SARS and COVID-19 are cyclical. After a lapse of sixteen years, reflections and discussions about infectious diseases are still ongoing, and with the recurrence of infectious diseases, the financial reports are constantly being coordinated, compared and reflected.
 
-###Financial crisis
+### Financial crisis
 
 In addition to the cyclical changes in the epidemic, the emergence of economic crises also has a certain cyclical law. By using TF-IDF, we can observe that crisis, employment, and challenges frequently appear in topic modeling in 2009. These three words appeared together in the Economy and Finance chapters.
 
