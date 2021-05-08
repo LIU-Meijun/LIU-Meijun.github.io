@@ -45,34 +45,27 @@ As shown in the wordcloud, the word “expenditure” and “tax” have been me
 In order to see the change of the importance ranking of these words in each year's budget report, we got the top 20 keywords with the high frequency in each year's budget according to the TF-IDF method, and formed the results into a table.
 
 ![Image of tfidf1](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/tfidf1.png)
-![GitHub](/images/tfidf2.png)
-Format: ![Alt Text](https://https://ibb.co/gzy3DWd)
+![Image of tfidf2](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/tfidf2.png)
 
 From the table, we can see that the words "expenditure" and "tax" appear most frequently in the table with 17 times and 13 times respectively, which means that in the 20-year budgets, the word "expenditure" has been mentioned frequently in 17 years budgets except for 2008, 2009 and 2017, and it is worth mentioning that it ranks first for four consecutive years from 2002 to 2005, while the word "tax" comes in the top 20 in 13 years budgets except for 2002, 2010, 2011, 2012, 2014, 2017 and 2021, which ranks first for three consecutive years from 2007 to 2009.
 
-![GitHub](/images/tfidf3.png)
-Format: ![Alt Text](https://ibb.co/Hh8ZdVJ)
+![Image of tfidf3](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/tfidf3.png)
 
 There are many words that only appear once in this table. For example, the word "vehicles" ranks first in 2010, but it only appears once in the table which means that Hong Kong government began to emphasize vehicles in 2010 Hong Kong budget. It shows that vehicles or green economy is the unique concerns of 2010 which is an emerging issue that has not been paid attention to before 2010.
 
 When applying the text-mining tools, we still used topic modeling to discover the hidden semantic structures in the text of Hong Kong budget. Given that 20 years Hong Kong budgets focus on several topics, we wanted to discover the abstract topics that occur in a collection of documents. We also used k-means clustering and determined K=5, therefore, we extracted 5 topics with top 30 words describing each of them, a topic is intended here as a list of words that occur in statistically meaningful ways.
 
-![GitHub](/images/topic1.png)
-Format: ![Alt Text](https://ibb.co/jWsfGpN)
-![GitHub](/images/topic3.png)
-Format: ![Alt Text](https://ibb.co/nDN9Gm3)
+![Image of topic1](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/topic1.png)
+![Image of topic3](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/topic3.png)
 
 From the left panel of the charts, we found that topic 1 and topic 3 are closer and seem to be in the same quadrant. Topic 1 mainly talks about economic and social development, which involves job opportunities, city resources, environment, education and other issues, while topic 3 is about public finances mainly involving financial expenditure, revenue, tax, reserves, deficit and other aspects. 
 
-![GitHub](/images/topic2.png)
-Format: ![Alt Text](https://ibb.co/bJZrmxn)
+![Image of topic2](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/topic2.png)
 
 In terms of the right panel of the chart, Topic 2 mainly discusses about industries and enterprises, which involves financial services, business and trade, technology industry, logistic industry and other industries, especially focuses on their development. 
 
-![GitHub](/images/topic4.png)
-Format: ![Alt Text](https://ibb.co/3f0VyyN)
-![GitHub](/images/topic5.png)
-Format: ![Alt Text](https://ibb.co/zNDG8hp)
+![Image of topic4](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/topic4.png)
+![Image of topic5](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/topic5.png)
 
 According to the left panel of the charts, we also found that topic 4 and topic 5 are closer and almost in the same quadrant. Topic 4 mainly talks about government services, support and caring, which invloves elderly care, education funding, allowance and healthcare. Topic 5 is about city development and construction mainly involving land supply, facilities, tourism, housing supply, building and other aspects. 
 
@@ -95,8 +88,7 @@ Since Hong Kong reunification in 1997, Hong Kong experienced a six-years adjustm
 
 Firstly, during 2003 to 2009, tax was very highly ranking in 2003 and 2007 to 2009. We took attention to these years’ tax changes and searched the relative information online. Hong Kong government increased the tax on salary, profits and property to the level of 1998/99 that around 1% and implemented in two equal phases in 2003-04 and 2004-05. Besides three basic taxes, motor vehicles first registration tax increased on the cars’ equipment and to the supplement. After this increase, the tax ushered in a stable stage until 2007. 
 
-![GitHub](/images/gdp.png)
-Format: ![Alt Text](https://ibb.co/hMtspHm)
+![Image of gdp](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/GDP.png)
 
 From the figure above that captured from the budget speech 2011-12, GDP of Hong Kong had gained a bigger rise since the policies implement in 2003. In 2007, the government decided to make a series of tax relief measures to share the fruits of economic prosperity with the community. Under the relief measures, the three basic taxes were all decreased. Besides, the taxes of 2007/08 had planned to reduce in 2008, which is one-off reduction about 75 per cent of salaries tax and tax under personal assessment. Also, the tax allowances, tax bands were adjusted as regards inflation. However, for the financial crisis in 2008, Hong Kong was greatly affected on the business, economic, unemployment rate and many other fields. Also, from the figure, the GDP in 2008 has ushered in a new trough that almost the same as in 1998. In 2009, the government released the one-off tax reduction of 50 per cent on salaries tax and tax under personal assessment for 2008-09 with the ceiling of $6,000 which dropped a lot compared to last year. And in 2010, the reduction changed to 75 per cent for 2009/10. Furthermore, there are many other one-off reductions waiving rates applied to help the public counter the financial crisis. Under the help from government and the efforts of the whole Hong Kong people, the GDP of 2010 had risen quickly.
 
@@ -112,8 +104,7 @@ Between 2002 and 2021, Hong Kong government has adjusted the rate on many parts 
 
 Land source is global issue and enduring issue for a long time. Specially, in Hong Kong, land source is very precious for a large amount of people to live, to life, to work. Also, through the word cloud, “land” ranks 13 with 7.47, which is below the tax, industries, economic, services and public. Land source in Hong Kong mainly support for includes housing supply, commercial sites, and government, institution, or Community sites. Different usages have these own policies, and the income of land to the land fund is important for the government. 
 
-![GitHub](/images/land.png)
-Format: ![Alt Text](https://ibb.co/HBHdt4D)
+![Image of land](https://raw.githubusercontent.com/LIU-Meijun/LIU-Meijun.github.io/main/figures/land.png)
 
 Looking to every year’s TF-IDF, during 2011 to 2017 except 2012, “land” ranked highly, then the overall ranking dropped around 20 to 30 level. Before 2011, land resource has mentioned, but the property is small. As an enduring issue, land does not rank in top 20 before 2011, so what is the performance of land before 2011? At the early stage after the Hong Kong reunification, land fund is one of important part in fiscal reserves that government sold or rent the land for the business, real estate agent, or industries to gain the land fund. Besides, the land rate is top priority and adjusted for boosting economy. To these fields, land topic was mentioned in commercial and industrial sites. In 2008, efficient and flexible use of land resources was mentioned first time. John Tsang Chun-wah, the Hong Kong financial secretary during 2007 and 2017, said “With the continued upturn in our economy, demand for residential and commercial properties has increased, exerting upward pressure on both property prices and rent. The transaction prices of land at auction reflect market demand. In view of this, we will increase land supply.” Also, in 2009, a variety of commercial and residential sites and “hotel use only” sites were provided. The reason of implementing this policy is added that the economic downturn for the financial crisis in 2008-09. In addition, the government proposed to optimising land resources about revitalising old industrial buildings. Also, in 2010, Hong Kong government focused on the land utilization that change the idle government sites to industries buildings. To another side, we found there are many contents talking about the environment and land because of the mention to global environment issue. 
 
